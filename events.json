@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "blackout",
+    "date": "2026-04-18",
+    "price": 2000,
+    "currency": "KES",
+    "description": "Operation Blackout.",
+    "image": "https://via.placeholder.com/300x180?text=Blackout"
+  },
+  {
+    "id": "2",
+    "title": "Food Festival",
+    "date": "2026-05-02",
+    "price": 1500,
+    "currency": "KES",
+    "description": "Taste dishes from local chefs.",
+    "image": "https://via.placeholder.com/300x180?text=Food+Festival"
+  },
+  {
+    "id": "3",
+    "title": "Tech Conference",
+    "date": "2026-06-15",
+    "price": 9900,
+    "currency": "KES",
+    "description": "Talks, workshops and networking.",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.X8RteywoB3oLUCUYqdEldwHaEJ?w=1749&h=980&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+   {
+    "id": "4",
+    "title": "blackout",
+    "date": "2026-04-18",
+    "price": 800,
+    "currency": "KES",
+    "description": "Operation Blackout",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.hJvD9S8jNngQQyz9NmNwQAHaE6?rs=1&pid=ImgDetMain&o=7&rm=3"
+  }
+]

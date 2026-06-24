@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fomoprix Ticket Scanner</title>
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --accent:#0ea5a4; --muted:#94a3b8; --danger:#ef4444;
+      --glass: rgba(255,255,255,0.04);
+      --radius:12px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;padding:0;font-family:Inter,Segoe UI,Arial,Helvetica,sans-serif;background:linear-gradient(180deg,#071021 0%, #071526 60%);color:#e6eef6}
+    .page{min-height:100%;display:flex;flex-direction:column;align-items:center;padding:18px}
+    h1{margin:6px 0 14px;font-size:20px;font-weight:600}
+
+    .scanner-card{width:100%;max-width:980px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:var(--radius);padding:12px;border:1px solid rgba(255,255,255,0.04);box-shadow:0 6px 24px rgba(2,6,23,0.6)}
+
+    /* video area */
+    .video-wrap{position:relative;width:100%;padding-top:56%;overflow:hidden;border-radius:8px;background:#000}
+    video{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;border-radius:6px}
+    canvas{display:none}
+
+    /* scanning overlay */
+    .overlay{position:absolute;inset:0;pointer-events:none;display:flex;align-items:center;justify-content:center}
+    .overlay .box{width:68%;max-width:560px;height:40%;border:2px dashed rgba(255,255,255,0.18);border-radius:12px;box-shadow:0 0 40px rgba(14,165,164,0.06) inset}
+    .overlay .corner{position:absolute;width:28px;height:28px;border:3px solid var(--accent);border-radius:6px;opacity:0.9}
+
+    /* controls */
+    .controls{display:flex;gap:12px;justify-content:center;margin-top:12px}
+    .btn{background:var(--accent);color:#052023;border:none;padding:10px 14px;border-radius:10px;cursor:pointer;font-weight:600}
+    .btn.secondary{background:transparent;color:var(--muted);border:1px solid rgba(255,255,255,0.04)}
+    .btn.danger{background:var(--danger);color:white}
+
+    /* result */
+    #result{margin-top:14px;padding:12px;border-radius:10px;background:var(--glass);width:100%;max-width:980px;color:#e6eef6;border:1px solid rgba(255,255,255,0.03)}
+    #result .status{font-weight:700}
+    #result .meta{margin-top:8px;color:var(--muted);font-size:13px}
+
+    /* responsive */
+    @media (max-width:640px){
+      .overlay .box{width:86%;height:36%}
+      h1{font-size:18px}
+      .btn{padding:10px 12px}
+    }
+  </style>
+</head>
+<body>
+  <h1>🎟️ Fomoprix Ticket Scanner</h1>
+  <div class="scanner-card">
+    <div class="video-wrap">
+      <video id="video" autoplay muted playsinline></video>
+      <canvas id="canvas"></canvas>
+      <div class="overlay">
+        <div class="box"></div>
+      </div>
+    </div>
+
+    <div class="controls" style="margin-top:12px; justify-content:center;">
+      <button id="start" class="btn">Start</button>
+      <button id="stop" class="btn secondary">Stop</button>
+      <button id="open-tab" class="btn secondary">Open Scanner in Tab</button>
+    </div>
+
+    <div id="result">Status: idle</div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js"></script>
+  <script>
+    const video = document.getElementById('video');
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    const resultEl = document.getElementById('result');
+    const startBtn = document.getElementById('start');
+    const stopBtn = document.getElementById('stop');
+    const openTabBtn = document.getElementById('open-tab');
+    let stream = null;
+    let scanning = false;
+
+    startBtn.addEventListener('click', startScanner);
+    stopBtn.addEventListener('click', stopScanner);
+    openTabBtn.addEventListener('click', () => window.open(location.href, '_blank'));
+
+    // Auto-start when loaded inside modal/tab
+    window.addEventListener('load', () => {
+      startScanner().catch(e => console.warn('Auto-start failed', e));
+    });
+
+    async function startScanner(){
+      try{
+        if (stream) return;
+        stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } });
+        video.srcObject = stream;
+        scanning = true;
+        resultEl.textContent = 'Status: scanning...';
+        requestAnimationFrame(tick);
+      }catch(e){
+        resultEl.textContent = 'Camera error: ' + (e.message || e);
+      }
+    }
+
+    function stopScanner(){
+      scanning = false;
+      resultEl.textContent = 'Status: stopped';
+      if (stream) {
+        stream.getTracks().forEach(t=>t.stop());
+        stream = null;
+      }
+      // clear overlay
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+    }
+
+    async function tick(){
+      if (!scanning) return;
+      if (video.readyState === video.HAVE_ENOUGH_DATA){
+        // size canvas to video
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        // draw current frame for processing
+        ctx.drawImage(video,0,0,canvas.width,canvas.height);
+        const imageData = ctx.getImageData(0,0,canvas.width,canvas.height);
+        const code = jsQR(imageData.data, imageData.width, imageData.height, { inversionAttempts: 'dontInvert' });
+        // clear previous overlay then redraw video frame
+        ctx.lineWidth = 4;
+        if (code){
+          // draw polygon around detected QR
+          drawLine(code.location.topLeftCorner, code.location.topRightCorner);
+          drawLine(code.location.topRightCorner, code.location.bottomRightCorner);
+          drawLine(code.location.bottomRightCorner, code.location.bottomLeftCorner);
+          drawLine(code.location.bottomLeftCorner, code.location.topLeftCorner);
+
+          let payload = code.data;
+          resultEl.textContent = 'QR found';
+          try{
+            let parsed = null;
+            try{ parsed = JSON.parse(payload); } catch(e) { parsed = { ticketId: payload }; }
+            const ticketId = parsed.ticketId || parsed.ticket;
+            if (ticketId){
+              scanning = false; // pause
+              await validateTicket(ticketId);
+            } else {
+              resultEl.textContent = 'QR scanned but no ticketId found';
+            }
+          }catch(e){ resultEl.textContent = 'Scan error: ' + e.message; }
+          // resume scanning after short delay
+          setTimeout(()=>{ scanning = true; requestAnimationFrame(tick); }, 2500);
+          return;
+        }
+      }
+      requestAnimationFrame(tick);
+    }
+
+    function drawLine(a, b){
+      ctx.strokeStyle = '#0ea5a4';
+      ctx.beginPath();
+      ctx.moveTo(a.x, a.y);
+      ctx.lineTo(b.x, b.y);
+      ctx.stroke();
+    }
+
+    async function validateTicket(ticketId){
+      resultEl.textContent = 'Validating ticket ' + ticketId + '...';
+      // Try to get token from localStorage; if iframe doesn't have it, try parent window
+      let token = null;
+      try { token = localStorage.getItem('token'); } catch(e) { token = null; }
+      if (!token && window.parent && window.parent.localStorage) {
+        try { token = window.parent.localStorage.getItem('token'); } catch(e) { token = null; }
+      }
+      if (!token){ resultEl.textContent = 'Not authenticated. Login as admin in the main app to validate.'; return; }
+      try{
+        const res = await fetch('/api/tickets/validate', { method: 'POST', headers: { 'Content-Type':'application/json', 'Authorization': 'Bearer ' + token }, body: JSON.stringify({ ticketId }) });
+        const data = await res.json().catch(()=>({}));
+        if (res.ok && data.success){
+          resultEl.textContent = '✅ Validated: ' + (data.message || 'Ticket validated');
+        } else {
+          resultEl.textContent = '❌ Validation failed: ' + (data.error || data.message || JSON.stringify(data));
+        }
+      }catch(e){ resultEl.textContent = 'Network error: ' + (e.message || e); }
+    }
+
+  </script>
+</body>
+</html>

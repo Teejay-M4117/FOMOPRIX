@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDE1MCAxNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxNTAiIGhlaWdodD0iMTUwIiByeD0iMjAiIGZpbGw9IiMwMDc4ZDQiLz4KPHBhdGggZD0iTTkwIDQ4aDE2bDE2IDE2djQ4aC0xNnYtMTZoLTE2di0xNmgxNnYtMTZ6bS0yNC0xNmgxNnYxNmgtMTZ2LTE2em0wLTE2aDE2djE2aC0xNnYtMTZ6IiBmaWxsPSJ3aGl0ZSIvPgo8c3ZnPg=="/>
+            <TileColor>#0078d4</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>

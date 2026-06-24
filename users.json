@@ -1,0 +1,20 @@
+[
+  {
+    "id": "admin-001",
+    "email": "admin@ticketing.com",
+    "password": "admin123",
+    "role": "admin"
+  },
+  {
+    "id": "1772021381845",
+    "email": "teejaymungai2@gmail.com",
+    "password": "teejay0722949904@",
+    "role": "user"
+  },
+  {
+    "id": "1772025703535",
+    "email": "fajaboys@gmail.com",
+    "password": "bca+100%",
+    "role": "user"
+  }
+]

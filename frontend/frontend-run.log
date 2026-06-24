@@ -1,0 +1,24 @@
+::1 - - [19/Jun/2026 20:39:44] "GET /app.js HTTP/1.1" 200 -
+::1 - - [19/Jun/2026 20:40:02] code 501, message Unsupported method ('POST')
+::1 - - [19/Jun/2026 20:40:02] "POST /api/login HTTP/1.1" 501 -
+::1 - - [19/Jun/2026 20:42:49] "GET /?id=d4013c12-d6ca-4060-ab40-e041c0ce7189&vscodeBrowserReqId=1781890969240 HTTP/1.1" 200 -
+::1 - - [19/Jun/2026 20:42:49] "GET /style.css HTTP/1.1" 200 -
+::1 - - [19/Jun/2026 20:42:49] "GET /app.js HTTP/1.1" 200 -
+::1 - - [19/Jun/2026 20:42:53] "GET /scanner.html HTTP/1.1" 200 -
+::1 - - [19/Jun/2026 20:43:00] "GET / HTTP/1.1" 200 -
+::1 - - [19/Jun/2026 20:43:18] code 501, message Unsupported method ('POST')
+::1 - - [19/Jun/2026 20:43:18] "POST /api/login HTTP/1.1" 501 -
+::1 - - [19/Jun/2026 20:43:22] code 501, message Unsupported method ('POST')
+::1 - - [19/Jun/2026 20:43:22] "POST /api/register HTTP/1.1" 501 -
+::1 - - [19/Jun/2026 20:43:33] code 501, message Unsupported method ('POST')
+::1 - - [19/Jun/2026 20:43:33] "POST /api/register HTTP/1.1" 501 -
+::1 - - [19/Jun/2026 20:43:33] code 501, message Unsupported method ('POST')
+::1 - - [19/Jun/2026 20:43:33] "POST /api/register HTTP/1.1" 501 -
+::1 - - [19/Jun/2026 20:43:33] code 501, message Unsupported method ('POST')
+::1 - - [19/Jun/2026 20:43:33] "POST /api/register HTTP/1.1" 501 -
+::1 - - [19/Jun/2026 20:43:34] code 501, message Unsupported method ('POST')
+::1 - - [19/Jun/2026 20:43:34] "POST /api/register HTTP/1.1" 501 -
+::1 - - [19/Jun/2026 20:43:34] code 501, message Unsupported method ('POST')
+::1 - - [19/Jun/2026 20:43:34] "POST /api/register HTTP/1.1" 501 -
+::1 - - [19/Jun/2026 20:43:34] code 501, message Unsupported method ('POST')
+::1 - - [19/Jun/2026 20:43:34] "POST /api/register HTTP/1.1" 501 -

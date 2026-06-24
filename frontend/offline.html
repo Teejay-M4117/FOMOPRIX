@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0078d4" />
+  <title>Fomoprix - Offline</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .offline-content {
+      max-width: 400px;
+      background: rgba(255,255,255,0.1);
+      padding: 40px;
+      border-radius: 20px;
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    }
+    h1 { margin-bottom: 20px; font-size: 2em; }
+    p { margin-bottom: 30px; line-height: 1.6; }
+    .retry-btn {
+      background: #0078d4;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .retry-btn:hover {
+      background: #0056b3;
+      transform: translateY(-2px);
+    }
+    .icon {
+      font-size: 4em;
+      margin-bottom: 20px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="offline-content">
+    <div class="icon">📱</div>
+    <h1>You're Offline</h1>
+    <p>It looks like you're not connected to the internet. Don't worry! You can still view your previously loaded tickets and event information.</p>
+    <p>Check your connection and try again.</p>
+    <button class="retry-btn" onclick="window.location.reload()">🔄 Try Again</button>
+  </div>
+
+  <script>
+    // Check for online status and redirect when back online
+    window.addEventListener('online', () => {
+      window.location.reload();
+    });
+
+    // Service worker message handling
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.addEventListener('message', event => {
+        if (event.data && event.data.type === 'ONLINE') {
+          window.location.href = '/';
+        }
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0078d4" />
+  <meta name="description" content="Buy and manage event tickets with M-Pesa payments" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Fomoprix" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="msapplication-TileColor" content="#0078d4" />
+  <meta name="msapplication-config" content="/browserconfig.xml" />
+  <title>Fomoprix - Event Ticketing Platform</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iIzAwNzhkNCIvPgo8cGF0aCBkPSJNMTIgMTZoNGw0IDR2OGgtNFYxNnoiIGZpbGw9IndoaXRlIi8+Cjxzdmc+" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🎶 Fomoprix 🎶</h1>
+    <div id="user-menu" class="hidden">
+      <span id="user-email"></span>
+      <button id="logout">Logout</button>
+      
+      <button id="change-pwd" onclick="showChangePasswordModal()">🔑 Change Password</button>
+      <button id="help-btn" onclick="showModal('help-modal')">❓ Help</button>
+      <button id="admin-btn" class="hidden">🌐Admin</button>
+      <button id="admin-tools-btn" class="hidden" onclick="showAdminTools()">🛠️ Tools</button>
+      <button id="header-scanner-btn" class="hidden" title="Open scanner">🔍 Scanner</button>
+    </div>
+  </header>
+
+  <!-- Auth Page -->
+  <div id="auth-page">
+    <div class="auth-box">
+      <h2>Sign In or Create Account</h2>
+      <input type="email" id="email" placeholder="Email" />
+      <input type="password" id="password" placeholder="Password" />
+      <button id="login">Login</button>
+      <button id="register">Register</button>
+      <button id="forgot-pwd-btn" onclick="showForgotPasswordModal()">Forgot Password?</button>
+      <div id="tc-section" style="margin-top:15px; padding:10px; background:#f0f0f0; border-radius:5px; font-size:12px;">
+        <label>
+          <input type="checkbox" id="tc-accept" />
+          I accept the <button type="button" onclick="showModal('tc-modal')" style="background:none; border:none; color:blue; text-decoration:underline; cursor:pointer;">Terms & Conditions</button>
+        </label>
+      </div>
+      <div id="auth-message"></div>
+    </div>
+  </div>
+
+  <!-- Main Shop Page -->
+  <main id="main-page" class="hidden">
+    <div class="container">
+      <section id="events"></section>
+      <aside id="cart">
+        <h2>🛒 Cart</h2>
+        <ul id="cart-items"></ul>
+        <div id="total">Total: KES 0</div>
+        <button id="checkout">Checkout</button>
+        <div id="message"></div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Payment Page -->
+  <div id="payment-page" class="hidden">
+    <div class="container" style="max-width:500px;margin:0 auto;">
+      <h2>💳 M-Pesa Checkout</h2>
+      <div id="payment-details"></div>
+      <div style="margin:20px 0;">
+        <h3>Pay with M-Pesa</h3>
+        <p style="color:#666;font-size:13px;">Enter your M-Pesa phone number. AFTER PAYMENT GO BACK AND WAIT FOR 5 MINUTES TO GET YOUR TICKETS:</p>
+        <input type="tel" id="mpesa-phone" placeholder="M-Pesa Phone (e.g., +254712345678 or 0712345678)" value="+254" />
+        <p style="color:#999;font-size:12px;">In production: M-Pesa STK Push will be sent to this number.</p>
+        <button id="submit-mpesa">Pay with M-Pesa</button>
+      </div>
+      <button id="back-to-orders">Back</button>
+      <div id="payment-message"></div>
+    </div>
+  </div>
+
+  <!-- Orders Page removed — tickets are emailed to users -->
+
+  <!-- Admin Dashboard -->
+  <div id="admin-page" class="hidden">
+    <div class="container">
+      <h2>🛠️ Admin Dashboard</h2>
+      <div id="admin-stats"></div>
+      <div id="admin-orders"></div>
+      <div id="admin-help-requests"></div>
+      <button id="back-from-admin">Back to Shop</button>
+    </div>
+  </div>
+
+  <!-- Help Modal -->
+  <div id="help-modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close" onclick="hideModal('help-modal')">&times;</span>
+      <h2>❓ Help & Support</h2>
+      <div style="margin-top:20px;">
+        <input type="text" id="help-name" placeholder="Your Name" />
+        <input type="email" id="help-email" placeholder="Your Email" />
+        <input type="text" id="help-subject" placeholder="Subject" />
+        <textarea id="help-message" placeholder="Describe your issue..."></textarea>
+        <button onclick="submitHelpForm()" style="width:100%; margin-top:10px;">Submit</button>
+        <div id="help-message-result" style="margin-top:10px; color:green;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Terms & Conditions Modal -->
+  <div id="tc-modal" class="modal hidden">
+    <div class="modal-content" style="max-height:80vh; overflow-y:auto;">
+      <span class="close" onclick="hideModal('tc-modal')">&times;</span>
+      <h2>Terms & Conditions</h2>
+      <div style="font-size:13px; line-height:1.6; margin-top:15px;">
+        <h3>Welcome to Fomoprix Ticketing Platform</h3>
+        
+        <h4>1. ACCEPTANCE OF TERMS</h4>
+        <p>By using this platform, you accept and agree to be bound by these terms and conditions.</p>
+        
+        <h4>2. USER ACCOUNTS</h4>
+        <p>- You are responsible for maintaining the confidentiality of your account<br/>
+        - You agree to provide accurate information during registration<br/>
+        - You are responsible for all activities under your account</p>
+        
+        <h4>3. TICKETS</h4>
+        <p>- Tickets are non-transferable and valid only for the specified event<br/>
+        - Digital tickets are unique and linked to your account<br/>
+        - Displaying QR codes from other accounts is prohibited<br/>
+        - Tickets cannot be resold or used for commercial purposes</p>
+        
+        <h4>4. PAYMENTS</h4>
+        <p>- All prices are displayed in Kenyan Shillings (KES)<br/>
+        - M-Pesa is the accepted payment method (via Paystack integration)<br/>
+        - Refunds are subject to our refund policy<br/>
+        - Payment is non-refundable unless event is cancelled</p>
+        
+        <h4>5. EVENTS</h4>
+        <p>- Event dates and times are subject to change<br/>
+        - No refunds for personal reasons<br/>
+        - Fomoprix reserves the right to cancel or postpone events</p>
+        
+        <h4>6. LIABILITY</h4>
+        <p>- Fomoprix is not liable for lost or forgotten tickets<br/>
+        - Users must ensure QR codes are not shared publicly<br/>
+        - Lost devices with digital tickets are user responsibility</p>
+        
+        <h4>7. INTELLECTUAL PROPERTY</h4>
+        <p>- All content, logos, and branding are property of Fomoprix<br/>
+        - Unauthorized use is prohibited</p>
+        
+        <h4>8. AMENDMENTS</h4>
+        <p>- We reserve the right to modify these terms anytime<br/>
+        - Continued use constitutes acceptance of changes</p>
+        
+        <p style="margin-top:20px;"><strong>For assistance, contact our support team at support@fomoprix.com</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin Tools Modal -->
+  <div id="admin-tools-modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close" onclick="hideModal('admin-tools-modal')">&times;</span>
+      <h2>🛠️ Admin Tools</h2>
+      <div style="margin-top:20px; display:flex; flex-direction:column; gap:10px;">
+        <button onclick="showCreateEventForm()" style="padding:10px; background:#0078d4; color:white; border:none; border-radius:5px; cursor:pointer;">➕ Create New Event</button>
+        <button onclick="showFreeTicketForm()" style="padding:10px; background:#107c10; color:white; border:none; border-radius:5px; cursor:pointer;">🎫 Issue Free Ticket</button>
+        <button id="admin-open-scanner" style="padding:10px; background:#d83b01; color:white; border:none; border-radius:5px; cursor:pointer;">🔍 Open Scanner</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scanner Modal (embedded) -->
+  <div id="scanner-modal" class="modal hidden">
+    <div class="modal-content" style="width:95%; max-width:900px; height:90%;">
+      <span class="close" onclick="hideModal('scanner-modal')">&times;</span>
+      <h2>🎟️ Ticket Scanner</h2>
+      <iframe id="scanner-iframe" src="scanner.html" style="width:100%; height:calc(100% - 60px); border:0; border-radius:6px;"></iframe>
+    </div>
+  </div>
+
+  <style>
+    .modal {
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .modal.hidden {
+      display: none;
+    }
+    
+    .modal-content {
+      background-color: #fefefe;
+      padding: 25px;
+      border-radius: 8px;
+      border: 1px solid #888;
+      width: 90%;
+      max-width: 500px;
+      position: relative;
+    }
+    
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    
+    .close:hover {
+      color: black;
+    }
+    
+    .download-btn {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      margin-top: 8px;
+    }
+    
+    .download-btn:hover {
+      opacity: 0.8;
+    }
+  </style>
+  <script src="https://js.paystack.co/v2/inline.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

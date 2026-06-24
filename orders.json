@@ -1,0 +1,587 @@
+[
+  {
+    "id": "1772024023133",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "2",
+        "title": "Food Festival",
+        "price": 15,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772024023132-2op3hlfsl",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyNTAnIGhlaWdodD0nMjUwJyB2aWV3Qm94PScwIDAgMjUwIDI1MCc+PHJlY3QgZmlsbD0nd2hpdGUnIHdpZHRoPScyNTAnIGhlaWdodD0nMjUwJy8+PGcgZmlsbD0nYmxhY2snIG9wYWNpdHk9JzAuOCc+PHJlY3QgeD0nMTAnIHk9JzEwJyB3aWR0aD0nNTAnIGhlaWdodD0nNTAnLz48cmVjdCB4PScxOTAnIHk9JzEwJyB3aWR0aD0nNTAnIGhlaWdodD0nNTAnLz48cmVjdCB4PScxMCcgeT0nMTkwJyB3aWR0aD0nNTAnIGhlaWdodD0nNTAnLz48L2c+PHRleHQgeD0nMTI1JyB5PScxMzUnIGZvbnQtc2l6ZT0nMTEnIGZvbnQtZmFtaWx5PSdtb25vc3BhY2UnIHRleHQtYW5jaG9yPSdtaWRkbGUnIGRvbWluYW50LWJhc2VsaW5lPSdtaWRkbGUnIGZvbnQtd2VpZ2h0PSdib2xkJz5US1QtMTc3MjAyNDAyMzEzMi0ybzwvdGV4dD48dGV4dCB4PScxMjUnIHk9JzE1NScgZm9udC1zaXplPSc5JyBmb250LWZhbWlseT0nbW9ub3NwYWNlJyB0ZXh0LWFuY2hvcj0nbWlkZGxlJyBmaWxsPScjNjY2Jz5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      }
+    ],
+    "total": 15,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T12:53:43.133Z"
+  },
+  {
+    "id": "1772024866582",
+    "userId": "1772021381845",
+    "items": [
+      {
+        "id": "2",
+        "title": "Food Festival",
+        "price": 15,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772024866581-hdcyyn5f5",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjAyNDg2NjU4MS1oZDwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      }
+    ],
+    "total": 15,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T13:07:46.583Z"
+  },
+  {
+    "id": "1772024932625",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "2",
+        "title": "Food Festival",
+        "price": 15,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772024932625-qgz3ejyl2",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjAyNDkzMjYyNS1xZzwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      }
+    ],
+    "total": 15,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T13:08:52.625Z"
+  },
+  {
+    "id": "1772025424898",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "1",
+        "title": "Indie Music Night",
+        "price": 2000,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772025424898-fay0j7ad4",
+        "event": "Indie Music Night",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjAyNTQyNDg5OC1mYTwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5JbmRpZSBNdXNpYyBOaWdodDwvdGV4dD48L3N2Zz4="
+      }
+    ],
+    "total": 2000,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T13:17:04.898Z"
+  },
+  {
+    "id": "1772025496133",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "3",
+        "title": "Tech Conference",
+        "price": 9900,
+        "qty": 2
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772025496133-1dfg76pm1",
+        "event": "Tech Conference",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjAyNTQ5NjEzMy0xZDwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5UZWNoIENvbmZlcmVuY2U8L3RleHQ+PC9zdmc+"
+      },
+      {
+        "ticketId": "TKT-1772025496133-yco9lfckv",
+        "event": "Tech Conference",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjAyNTQ5NjEzMy15YzwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5UZWNoIENvbmZlcmVuY2U8L3RleHQ+PC9zdmc+"
+      }
+    ],
+    "total": 19800,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T13:18:16.133Z"
+  },
+  {
+    "id": "1772025540663",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "3",
+        "title": "Tech Conference",
+        "price": 9900,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772025540663-onpj95yh3",
+        "event": "Tech Conference",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjAyNTU0MDY2My1vbjwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5UZWNoIENvbmZlcmVuY2U8L3RleHQ+PC9zdmc+"
+      }
+    ],
+    "total": 9900,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T13:19:00.663Z"
+  },
+  {
+    "id": "1772025719964",
+    "userId": "1772025703535",
+    "items": [
+      {
+        "id": "1",
+        "title": "Indie Music Night",
+        "price": 2000,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772025719964-5vla6ffke",
+        "event": "Indie Music Night",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjAyNTcxOTk2NC01djwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5JbmRpZSBNdXNpYyBOaWdodDwvdGV4dD48L3N2Zz4="
+      }
+    ],
+    "total": 2000,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T13:21:59.964Z"
+  },
+  {
+    "id": "1772026620965",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "1",
+        "title": "Indie Music Night",
+        "price": 2000,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772026620964-5imoggmhe",
+        "event": "Indie Music Night",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjAyNjYyMDk2NC01aTwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5JbmRpZSBNdXNpYyBOaWdodDwvdGV4dD48L3N2Zz4="
+      }
+    ],
+    "total": 2000,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T13:37:00.965Z",
+    "paymentMethod": "mpesa",
+    "mpesaPhone": "254797110559",
+    "mpesaInitiated": "2026-02-25T13:37:11.515Z",
+    "paidAt": "2026-02-25T13:37:16.520Z"
+  },
+  {
+    "id": "1772043529807",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "1",
+        "title": "Indie Music Night",
+        "price": 2000,
+        "qty": 1
+      },
+      {
+        "id": "3",
+        "title": "Tech Conference",
+        "price": 9900,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772043529806-sp9hadq65",
+        "event": "Indie Music Night",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA0MzUyOTgwNi1zcDwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5JbmRpZSBNdXNpYyBOaWdodDwvdGV4dD48L3N2Zz4="
+      },
+      {
+        "ticketId": "TKT-1772043529806-kbetblla5",
+        "event": "Tech Conference",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA0MzUyOTgwNi1rYjwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5UZWNoIENvbmZlcmVuY2U8L3RleHQ+PC9zdmc+"
+      }
+    ],
+    "total": 11900,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T18:18:49.807Z"
+  },
+  {
+    "id": "1772045017131",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "1",
+        "title": "Indie Music Night",
+        "price": 2000,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772045017121-kgzdu6ib5",
+        "event": "Indie Music Night",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA0NTAxNzEyMS1rZzwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5JbmRpZSBNdXNpYyBOaWdodDwvdGV4dD48L3N2Zz4="
+      }
+    ],
+    "total": 2000,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T18:43:37.131Z",
+    "paymentMethod": "mpesa",
+    "mpesaPhone": "254797110559",
+    "mpesaInitiated": "2026-02-25T18:43:43.583Z",
+    "paidAt": "2026-02-25T18:43:48.599Z"
+  },
+  {
+    "id": "1772045562637",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "1",
+        "title": "Indie Music Night",
+        "price": 2000,
+        "qty": 2
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772045562636-4mk1qnydy",
+        "event": "Indie Music Night",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA0NTU2MjYzNi00bTwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5JbmRpZSBNdXNpYyBOaWdodDwvdGV4dD48L3N2Zz4="
+      },
+      {
+        "ticketId": "TKT-1772045562636-8reeqovcp",
+        "event": "Indie Music Night",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA0NTU2MjYzNi04cjwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5JbmRpZSBNdXNpYyBOaWdodDwvdGV4dD48L3N2Zz4="
+      }
+    ],
+    "total": 4000,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T18:52:42.637Z",
+    "paymentMethod": "card",
+    "paidAt": "2026-02-25T18:53:34.614Z"
+  },
+  {
+    "id": "1772045902517",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "2",
+        "title": "Food Festival",
+        "price": 1500,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772045902514-u1advid7c",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA0NTkwMjUxNC11MTwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      }
+    ],
+    "total": 1500,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T18:58:22.517Z",
+    "paymentMethod": "mpesa",
+    "mpesaPhone": "254797110559",
+    "mpesaInitiated": "2026-02-25T18:58:31.513Z",
+    "paidAt": "2026-02-25T18:58:36.516Z"
+  },
+  {
+    "id": "1772045963590",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "2",
+        "title": "Food Festival",
+        "price": 1500,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772045963589-mydec5h55",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA0NTk2MzU4OS1teTwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      }
+    ],
+    "total": 1500,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T18:59:23.590Z",
+    "paymentMethod": "card",
+    "paidAt": "2026-02-25T18:59:54.341Z"
+  },
+  {
+    "id": "1772046121408",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "1",
+        "title": "Indie Music Night",
+        "price": 2000,
+        "qty": 1
+      },
+      {
+        "id": "2",
+        "title": "Food Festival",
+        "price": 1500,
+        "qty": 1
+      },
+      {
+        "id": "3",
+        "title": "Tech Conference",
+        "price": 9900,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772046121408-jc294cfpk",
+        "event": "Indie Music Night",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA0NjEyMTQwOC1qYzwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5JbmRpZSBNdXNpYyBOaWdodDwvdGV4dD48L3N2Zz4="
+      },
+      {
+        "ticketId": "TKT-1772046121408-nhn5kaugc",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA0NjEyMTQwOC1uaDwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      },
+      {
+        "ticketId": "TKT-1772046121408-e5uyj9n4f",
+        "event": "Tech Conference",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA0NjEyMTQwOC1lNTwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5UZWNoIENvbmZlcmVuY2U8L3RleHQ+PC9zdmc+"
+      }
+    ],
+    "total": 13400,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T19:02:01.408Z",
+    "paymentMethod": "mpesa",
+    "mpesaPhone": "254722949904",
+    "mpesaInitiated": "2026-02-25T19:02:24.392Z",
+    "paidAt": "2026-02-25T19:02:29.394Z"
+  },
+  {
+    "id": "1772052138960",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "2",
+        "title": "Food Festival",
+        "price": 1500,
+        "qty": 7
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772052138875-7kvezvkak",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1MjEzODg3NS03azwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      },
+      {
+        "ticketId": "TKT-1772052138876-6i2p6jxfn",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1MjEzODg3Ni02aTwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      },
+      {
+        "ticketId": "TKT-1772052138876-m1lmj8e1j",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1MjEzODg3Ni1tMTwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      },
+      {
+        "ticketId": "TKT-1772052138876-lk0hcs12k",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1MjEzODg3Ni1sazwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      },
+      {
+        "ticketId": "TKT-1772052138876-p0yew6gvz",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1MjEzODg3Ni1wMDwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      },
+      {
+        "ticketId": "TKT-1772052138876-fbi8079hd",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1MjEzODg3Ni1mYjwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      },
+      {
+        "ticketId": "TKT-1772052138876-t98cqz82v",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1MjEzODg3Ni10OTwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      }
+    ],
+    "total": 10500,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T20:42:18.960Z",
+    "paymentMethod": "mpesa",
+    "mpesaPhone": "254797110559",
+    "mpesaInitiated": "2026-02-25T20:42:39.659Z",
+    "paidAt": "2026-02-25T20:42:44.665Z"
+  },
+  {
+    "id": "1772052204964",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "2",
+        "title": "Food Festival",
+        "price": 1500,
+        "qty": 7
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772052204963-58oj4cy5b",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1MjIwNDk2My01ODwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      },
+      {
+        "ticketId": "TKT-1772052204963-1ec0dding",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1MjIwNDk2My0xZTwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      },
+      {
+        "ticketId": "TKT-1772052204963-udjful5te",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1MjIwNDk2My11ZDwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      },
+      {
+        "ticketId": "TKT-1772052204963-kmflosenz",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1MjIwNDk2My1rbTwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      },
+      {
+        "ticketId": "TKT-1772052204963-5456usp4y",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1MjIwNDk2My01NDwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      },
+      {
+        "ticketId": "TKT-1772052204963-5ck7dvlge",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1MjIwNDk2My01YzwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      },
+      {
+        "ticketId": "TKT-1772052204963-dul8vmlzt",
+        "event": "Food Festival",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1MjIwNDk2My1kdTwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5Gb29kIEZlc3RpdmFsPC90ZXh0Pjwvc3ZnPg=="
+      }
+    ],
+    "total": 10500,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T20:43:24.964Z",
+    "paymentMethod": "mpesa",
+    "mpesaPhone": "254797110559",
+    "mpesaInitiated": "2026-02-25T20:43:48.117Z",
+    "paidAt": "2026-02-25T20:43:53.132Z"
+  },
+  {
+    "id": "1772054560713",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "1",
+        "title": "Indie Music Night",
+        "price": 2000,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772054560614-y2mrvde2e",
+        "event": "Indie Music Night",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1NDU2MDYxNC15MjwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5JbmRpZSBNdXNpYyBOaWdodDwvdGV4dD48L3N2Zz4="
+      }
+    ],
+    "total": 2000,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T21:22:40.713Z",
+    "paymentMethod": "mpesa",
+    "mpesaPhone": "254722949904",
+    "mpesaInitiated": "2026-02-25T21:23:26.589Z",
+    "paidAt": "2026-02-25T21:23:31.600Z"
+  },
+  {
+    "id": "1772054646686",
+    "userId": "1772021381845",
+    "items": [
+      {
+        "id": "3",
+        "title": "Tech Conference",
+        "price": 9900,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772054646685-bm7sxnnrl",
+        "event": "Tech Conference",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1NDY0NjY4NS1ibTwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5UZWNoIENvbmZlcmVuY2U8L3RleHQ+PC9zdmc+"
+      }
+    ],
+    "total": 9900,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T21:24:06.686Z",
+    "paymentMethod": "mpesa",
+    "mpesaPhone": "254797110559",
+    "mpesaInitiated": "2026-02-25T21:24:17.329Z",
+    "paidAt": "2026-02-25T21:24:22.332Z"
+  },
+  {
+    "id": "1772056135136",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "1",
+        "title": "Indie Music Night",
+        "price": 2000,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772056135092-q0u80wl6u",
+        "event": "Indie Music Night",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1NjEzNTA5Mi1xMDwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5JbmRpZSBNdXNpYyBOaWdodDwvdGV4dD48L3N2Zz4="
+      }
+    ],
+    "total": 2000,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T21:48:55.136Z",
+    "paymentMethod": "card",
+    "paidAt": "2026-02-25T21:51:28.041Z"
+  },
+  {
+    "id": "1772056833876",
+    "userId": "admin-001",
+    "items": [
+      {
+        "id": "1",
+        "title": "Indie Music Night",
+        "price": 2000,
+        "qty": 1
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "TKT-1772056833875-s7wds1tme",
+        "event": "Indie Music Night",
+        "qrCode": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgMjUwIDI1MCI+PHJlY3QgZmlsbD0id2hpdGUiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIi8+PGcgZmlsbD0iYmxhY2siIG9wYWNpdHk9IjAuOCI+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxOTAiIHk9IjEwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSIxMCIgeT0iMTkwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48cmVjdCB4PSI3MCIgeT0iNzAiIHdpZHRoPSIxMTAiIGhlaWdodD0iMTEwIiBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PHRleHQgeD0iMTI1IiB5PSIxMzUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5US1QtMTc3MjA1NjgzMzg3NS1zNzwvdGV4dD48dGV4dCB4PSIxMjUiIHk9IjE1NSIgZm9udC1zaXplPSI5IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij5JbmRpZSBNdXNpYyBOaWdodDwvdGV4dD48L3N2Zz4="
+      }
+    ],
+    "total": 2000,
+    "paymentStatus": "completed",
+    "createdAt": "2026-02-25T22:00:33.876Z",
+    "paymentMethod": "mpesa",
+    "mpesaPhone": "254797110559",
+    "mpesaInitiated": "2026-02-25T22:00:46.862Z",
+    "paidAt": "2026-02-25T22:00:51.885Z"
+  }
+]
