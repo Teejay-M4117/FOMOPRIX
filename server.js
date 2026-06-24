@@ -123,7 +123,10 @@ async function sendTicketsForOrder(order, userEmail) {
 
 // Middleware
 app.use(express.json());
-app.use(express.static(path.join(__dirname, '..', 'frontend')));
+app.use(express.static(path.join(__dirname, 'frontend')));
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'frontend', 'index.html'));
+});
 
 // MongoDB Connection
 mongoose.connect(MONGODB_URI)
