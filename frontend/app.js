@@ -779,4 +779,9 @@ function showChangePasswordModal() {
 }
 
 window.showForgotPasswordModal = showForgotPasswordModal;
+                 function showForgotPasswordModal() {
+  alert("Forgot Password feature is coming soon.");
+}
+
+window.showForgotPasswordModal = showForgotPasswordModal;
 }
