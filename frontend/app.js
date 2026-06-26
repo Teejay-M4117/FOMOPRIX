@@ -88,11 +88,16 @@ async function initApp() {
 async function loadEvents() {
   try {
     const res = await fetch(`${api}/events`);
-    events = await res.json();
+    const data = await res.json();
+
+    // 👇 FIX: ensure it's always an array
+    events = Array.isArray(data) ? data : data.events || [];
+
+    console.log('Loaded events:', events);
+
     renderEvents(events);
   } catch (e) {
     console.error('Failed to load events', e);
-    events = [];
     renderEvents([]);
   }
 }
