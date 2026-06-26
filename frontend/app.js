@@ -34,7 +34,7 @@ const headerScannerBtn = document.getElementById('header-scanner-btn');
 const adminOpenScannerBtn = document.getElementById('admin-open-scanner');
 
 // Basic auth handlers (minimal)
-async function login() {
+async function loginUser() {
   try {
     const email = emailEl?.value;
     const password = passwordEl?.value;
@@ -56,7 +56,7 @@ async function login() {
   } catch (e) { console.error(e); alert('Login error'); }
 }
 
-async function register() {
+async function registerUser() {
   try {
     const email = emailEl?.value;
     const password = passwordEl?.value;
@@ -70,7 +70,7 @@ async function register() {
   } catch (e) { console.error(e); alert('Register error'); }
 }
 
-function logout() {
+function logoutUser() {
   token = null;
   currentUser = null;
   localStorage.removeItem('token');
@@ -389,9 +389,9 @@ async function pollOrderStatus(orderId, interval = 2000, attempts = 30) {
 }
 
 // Attach listeners safely
-if (loginBtn) loginBtn.addEventListener('click', login);
-if (registerBtn) registerBtn.addEventListener('click', register);
-if (logoutBtn) logoutBtn.addEventListener('click', logout);
+if (loginBtn) loginBtn.addEventListener('click', loginUser);
+if (registerBtn) registerBtn.addEventListener('click', registerUser);
+if (logoutBtn) logoutBtn.addEventListener('click', logoutUser);
 if (checkoutBtn) {
   checkoutBtn.onclick = async () => {
     const res = await fetch(`${api}/orders`, {
