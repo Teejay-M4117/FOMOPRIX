@@ -770,7 +770,8 @@ function showChangePasswordModal() {
     const d = await r.json();
     if (r.ok) alert(d.message || 'Password changed');
     else alert(d.error || 'Change failed');
-  }).catch(e => { console.error(e); alert('Error changing password');}        
+  }).catch(e => { console.error(e); alert('Error changing password');
+                
              app.get('/', (req, res) => {
   res.send('🚀 API is running successfully');
 });
@@ -784,4 +785,4 @@ window.showForgotPasswordModal = showForgotPasswordModal;
 }
 
 window.showForgotPasswordModal = showForgotPasswordModal;
-;
+                }
