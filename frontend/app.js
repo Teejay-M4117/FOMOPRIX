@@ -392,22 +392,24 @@ async function pollOrderStatus(orderId, interval = 2000, attempts = 30) {
 if (loginBtn) loginBtn.addEventListener('click', login);
 if (registerBtn) registerBtn.addEventListener('click', register);
 if (logoutBtn) logoutBtn.addEventListener('click', logout);
-checkoutBtn.onclick = async ()=>{
-  const res = await fetch(`${api}/orders`,{
-    method:'POST',
-    headers:{
-      'Content-Type':'application/json',
-      'Authorization':`Bearer ${token}`
-    },
-    body: JSON.stringify({items:cart})
-  });
+if (checkoutBtn) {
+  checkoutBtn.onclick = async () => {
+    const res = await fetch(`${api}/orders`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token}`
+      },
+      body: JSON.stringify({ items: cart })
+    });
 
-  const data = await res.json();
-  if(data.success){
-    currentOrder = data.order;
-    showPaymentPage(data.order);
-  }
-};
+    const data = await res.json();
+    if (data.success) {
+      currentOrder = data.order;
+      showPaymentPage(data.order);
+    }
+  };
+}
 
 function showPaymentPage(order){
   paymentDetails.innerHTML = `
