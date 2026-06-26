@@ -775,14 +775,4 @@ function showChangePasswordModal() {
              app.get('/', (req, res) => {
   res.send('🚀 API is running successfully');
 });
-                 function showForgotPasswordModal() {
-  alert("Forgot Password feature is not implemented yet.");
-}
-
-window.showForgotPasswordModal = showForgotPasswordModal;
-                 function showForgotPasswordModal() {
-  alert("Forgot Password feature is coming soon.");
-}
-
-window.showForgotPasswordModal = showForgotPasswordModal;
-                }
+                };
