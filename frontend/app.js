@@ -785,4 +785,4 @@ window.showForgotPasswordModal = showForgotPasswordModal;
 }
 
 window.showForgotPasswordModal = showForgotPasswordModal;
-                };
+                ;
