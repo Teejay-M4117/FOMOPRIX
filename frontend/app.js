@@ -17,6 +17,7 @@ const registerBtn = document.getElementById('register');
 const logoutBtn = document.getElementById('logout');
 const checkoutBtn = document.getElementById('checkout');
 const eventsEl = document.getElementById('events');
+console.log("eventsEl:", eventsEl);
 const cartEl = document.getElementById('cart-items');
 const totalEl = document.getElementById('total');
 const paymentDetails = document.getElementById('payment-details');
@@ -103,12 +104,20 @@ async function loadEvents() {
 }
 
 function renderEvents(list) {
-  if (!eventsEl) return;
-  eventsEl.innerHTML = '';
-  if (!list || list.length === 0) {
-    eventsEl.innerHTML = '<p style="color:#fff;">No events available.</p>';
-    return;
-  }
+    if (!eventsEl) return;
+
+    eventsEl.innerHTML = "";
+
+    list.forEach(event => {
+        eventsEl.innerHTML += `
+            <div style="background:white;color:black;padding:20px;margin:10px;border-radius:10px">
+                <h2>${event.title}</h2>
+                <p>KES ${event.price}</p>
+                <p>${event.date}</p>
+            </div>
+        `;
+    });
+}
 
   list.forEach(ev => {
     const card = document.createElement('div');
