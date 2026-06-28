@@ -91,7 +91,7 @@ async function loadEvents() {
     const res = await fetch(`${api}/events`);
     const data = await res.json();
 
-    // 👇 FIX: ensure it's always an array
+    // ensure array
     events = Array.isArray(data) ? data : data.events || [];
 
     console.log('Loaded events:', events);
@@ -104,26 +104,16 @@ async function loadEvents() {
 }
 
 function renderEvents(list) {
-    if (!eventsEl) return;
+  if (!eventsEl) return;
 
-    eventsEl.innerHTML = "";
-
-    list.forEach(event => {
-        eventsEl.innerHTML += `
-            <div style="background:white;color:black;padding:20px;margin:10px;border-radius:10px">
-                <h2>${event.title}</h2>
-                <p>KES ${event.price}</p>
-                <p>${event.date}</p>
-            </div>
-        `;
-    });
-}
+  eventsEl.innerHTML = "";
 
   list.forEach(ev => {
     const card = document.createElement('div');
     card.className = 'card';
+
     card.innerHTML = `
-      <img src="${ev.image || 'https://via.placeholder.com/300x200'}" alt="${ev.title}" />
+      <img src="${ev.image || 'https://via.placeholder.com/300x200'}" />
       <div style="padding:12px;">
         <h3>${ev.title}</h3>
         <div class="event-date">${ev.date || ''}</div>
@@ -135,17 +125,21 @@ function renderEvents(list) {
 
     const btn = card.querySelector('.add-to-cart');
     btn.addEventListener('click', () => addToCart(ev));
-    // If admin, add delete button
+
+    // admin delete button
     if (currentUser && currentUser.role === 'admin') {
       const del = document.createElement('button');
       del.style.marginLeft = '8px';
       del.textContent = 'Delete';
+
       del.addEventListener('click', () => {
         if (!confirm('Delete this event?')) return;
         deleteEvent(ev._id || ev.id);
       });
+
       btn.insertAdjacentElement('afterend', del);
     }
+
     eventsEl.appendChild(card);
   });
 }
